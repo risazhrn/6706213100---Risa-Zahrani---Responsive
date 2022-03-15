@@ -1,0 +1,499 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: #F7F8FA;
+    font-family: 'Montserrat';
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.menu {
+    float: right;
+    padding: 10px;
+}
+
+/* ===== Navbar ===== */
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: sticky;
+    z-index: 1;
+    background-color: #F7F8FA;
+
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #1D293F;
+    font-weight: 500;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+    line-height: 45px;
+}
+
+nav ul li a:hover {
+    color: #FF00BD;
+}
+
+.active {
+    color: #FF00BD;
+}
+
+
+.home {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.home img {
+    float: left;
+    margin-top: 10px;
+}
+
+.kolom {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 120px;
+}
+
+.kolom h2 {
+    font-family: 'EB Garamond';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 63px;
+    color: #1D293F;
+
+}
+
+.kolom p {
+    font-family: 'EB Garamond';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #1D293F;
+}
+
+.kolom h3 {
+    font-family: 'EB Garamond';
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    margin-top: 15px;
+    margin-left: 10px;
+    color: #1D293F;
+}
+
+.button {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 35px;
+    border-radius: 50%;
+    background-color: #1D293F;
+    box-shadow: 0px 46px 312px rgba(0, 0, 0, 0.0759093),
+        0px 19.2177px 130.346px rgba(0, 0, 0, 0.109051),
+        0px 10.2747px 69.6893px rgba(0, 0, 0, 0.135),
+        0px 5.75991px 39.0672px rgba(0, 0, 0, 0.160949),
+        0px 3.05905px 20.7483px rgba(0, 0, 0, 0.194091),
+        0px 1.27294px 8.63384px rgba(0, 0, 0, 0.27);
+}
+
+.button img {
+    margin-left: 22px;
+    margin-top: 25px;
+}
+
+
+/* ========= Product ========= */
+
+#product {
+    width: 100%;
+    background-color: #1D293F;
+    width: auto;
+    padding-top: 120px;
+    padding-bottom: 90px;
+}
+
+#product h2 {
+    color: #BCD7FF;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Montserrat';
+}
+
+#product p {
+    padding: 20px;
+    color: #F7F8FA;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+#product .wrapper {
+    display: flex;
+    margin-top: 50px;
+}
+
+#product .cardbox {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #BCD7FF;
+    border-radius: 15px;
+}
+
+#product .cardbox p {
+    font-family: 'EB Garamond';
+    color: #1D293F;
+    letter-spacing: 2px;
+    padding: 4px;
+}
+
+#product .cardbox h3 {
+    font-family: 'Montserrat';
+    color: #1D293F;
+    font-weight: bolder;
+    font-size: 16px;
+    letter-spacing: 2px;
+    padding: 10px;
+    text-align: right;
+    margin-top: 10PX;
+}
+
+.btn_produk {
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 350px;
+    background-color: #F7F8FA;
+    border-radius: 50px;
+
+}
+
+#product .btn_produk p {
+    color: #1D293F;
+    font-family: 'Montserrat';
+    letter-spacing: 2px;
+
+
+}
+
+/* ========= Testimony ========= */
+
+.testimony {
+    width: 100%;
+    background-color: #F7F8FA;
+    width: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.testimony h2 {
+    color: #1D293F;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 45px;
+    font-family: 'Montserrat';
+}
+
+.testimony p {
+    padding: 20px;
+    color: #1D293F;
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.testimony .wrapper {
+    display: flex;
+}
+
+.testimony .card {
+    width: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border: 2px solid #BCD7FF;
+    background-color: #F7F8FA;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px
+}
+
+.card img {
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.testimony .card p {
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: #1D293F;
+    letter-spacing: normal;
+}
+
+.testimony .card h4 {
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    color: #1D293F;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.star img {
+    margin-top: 10px;
+    border-radius: 0%;
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+
+/* ========= Footer ========= */
+
+footer {
+    width: 100%;
+    background-color: #1D293F;
+    padding-top: 20px;
+
+}
+
+footer hr {
+    margin: 30px;
+    width: 1100px;
+    position: relative;
+}
+
+footer .wrapper {
+    padding-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+}
+
+
+.logo p {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    color: #F7F8FA;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #BCD7FF;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+ul li {
+    padding: 5px;
+    display: flex;
+}
+
+ul li p {
+    color: #F7F8FA;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    padding-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+ul li a {
+    padding-top: 5px;
+}
+
+.contact {
+    margin-left: 120px;
+}
+
+.info {
+    margin-left: 120px;
+}
+
+
+
+/*==================== Page Product ===================*/
+.display {
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.display .wrapper {
+    display: flex;
+}
+
+.card_product {
+    padding: 20px;
+    background-color: #BCD7FF;
+    margin: 20px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.card_product img {
+    width: 300px;
+    border-radius: 50%;
+}
+
+.card_product h2 {
+    margin: 10px;
+    color: #1D293F;
+    font-family: 'Montserrat';
+}
+
+.card_product p {
+    margin-top: 10px;
+    font-family: 'EB Garamond';
+    color: #1D293F;
+    letter-spacing: 1px;
+    padding: 4px;
+    text-align: justify;
+}
+
+.card_product h1 {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    text-align: right;
+    color: #1D293F;
+    font-weight: 800;
+}
+
+.buy {
+    border: 2px solid #1D293F;
+    width: 100px;
+    background-color: #1D293F;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.buy p {
+    color: #F7F8FA;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+
+
+/*==================== Page Contact ===================*/
+
+.kontak {
+    margin-top: 20px;
+    margin-bottom: 80px;
+
+}
+
+.kontak h1 {
+    font-family: 'EB Garamond';
+    color: #1D293F;
+    text-align: center;
+
+}
+
+.email {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+.email label {
+    margin-right: 30px;
+}
+
+.email input {
+    padding: 10px;
+    border: 2px solid #1D293F;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    width: 400px;
+}
+
+.pesan {
+    justify-content: center;
+    margin-top: 20px;
+    display: flex;
+}
+
+.pesan label {
+    margin-right: 30px;
+
+}
+
+.pesan textarea {
+    padding: 10px;
+    border: 2px solid #1D293F;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    width: 400px;
+}
+
+.submit {
+    margin-top: 20px;
+}
+
+.submit input {
+    padding: 10px;
+    width: 150px;
+    border-radius: 10px;
+    margin-right: 200px;
+
+}
